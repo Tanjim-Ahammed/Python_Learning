@@ -3,11 +3,11 @@ marks = int(marks)
 
 if marks >= 80:
     grade = "A+"
-if marks >= 70:
+elif marks >= 70:
     grade = "A"
-if marks >= 60:
+elif marks >= 60:
     grade = "A-"
-if marks >= 50:
+elif marks >= 50:
     grade = "B"
 else:
     grade = "F"
